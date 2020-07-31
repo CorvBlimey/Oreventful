@@ -1,0 +1,23 @@
+{
+  "parent": "jmx:block/jmx_cube_all",
+  "textures": {
+    "all": "minecraft:block/stone"
+  },
+  "jmx": {
+    "textures": {
+      "jmx_tex_particle": "minecraft:block/stone",
+      "layered_textures": [
+        { "jmx_tex_all": "minecraft:block/stone" },
+        { "jmx_tex_all": "minecraft:block/destroy_stage_7" }
+      ]
+    },
+    "materials": {
+      "jmx_mat_all": {
+        "layers": [
+          { "layer": "solid" },
+          { "layer": "translucent"}
+        ]
+      }
+    }
+  }
+}

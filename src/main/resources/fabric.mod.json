@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "oreventful",
+  "version": "${version}",
+
+  "name": "Oreventful",
+  "description": "Crumbling cave walls, experience geysers, and other 'mineables' to liven up the underground.",
+  "authors": [
+    "corvblimey"
+  ],
+  "contact": {
+    "homepage": "https://github.com/corvblimey",
+    "sources": "https://github.com/corvblimey/oreventful"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.corvblimey.oreventful.Oreventful"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
